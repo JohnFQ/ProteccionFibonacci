@@ -42,7 +42,7 @@ public class pruebaFibonacciImpl implements pruebaFibonacci{
 		SimpleMailMessage mailMessagePost = new SimpleMailMessage();
 		
 		mailMessagePost.setFrom("jhonfredyquiceno46@gmail.com");
-		mailMessagePost.setTo("john_quiceno23191@elpoli.edu.co", "johnfquiceno3@gmail.com");
+		mailMessagePost.setTo("correalondon@gmail.com", "chamogomez@gmail.com");
 		mailMessagePost.setSubject("Metodo Fibonacci  " + LocalDateTime.now().getHour() +":" +minutos+":"+ segundos);
 		mailMessagePost.setText("La serie ejecutada la puedes visualizar en el cliente");
 		
